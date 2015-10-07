@@ -232,14 +232,6 @@ $this->load->helper('form');
             <a href="<?php echo site_url('user/login')?>" class="text-center">已经注册？请登录</a>
         </div>
     <?php echo form_close(); ?>
-
-    <div class="margin text-center">
-        <span>下面的按钮暂时是不可用的</span>
-        <br/>
-        <button class="btn bg-light-blue btn-circle"><i class="fa fa-facebook"></i></button>
-        <button class="btn bg-aqua btn-circle"><i class="fa fa-twitter"></i></button>
-        <button class="btn bg-red btn-circle"><i class="fa fa-google-plus"></i></button>
-    </div>
 </div>
 </body>
 </html>
